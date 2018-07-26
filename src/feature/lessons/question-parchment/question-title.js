@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../lesson.css';
 
-class Title extends Component{
+class QuestionTitle extends Component{
 
     componentDidMount() {
     }
@@ -19,4 +19,4 @@ class Title extends Component{
 
 }
 
-export default Title;
+export default QuestionTitle;

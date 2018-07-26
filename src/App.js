@@ -6,7 +6,9 @@ import Header from "./feature/shell/header";
 import Footer from "./feature/shell/footer";
 
 class App extends Component {
+
   render() {
+
     return (
       <div className="App">
           <Header/>

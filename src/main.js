@@ -1,11 +1,11 @@
-import React, {Componant} from 'react';
+import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import Lesson from "./feature/lessons/lesson";
 
 
-class Main extends Componant{
+class Main extends Component{
     loadLesson(){
-        ReactDOM.render()(<Lesson/>, document.getElementById("quiz"));
+        ReactDOM.render(<Lesson/>, document.getElementById("quiz"));
     }
 
     render(){
