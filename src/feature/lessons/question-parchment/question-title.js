@@ -9,7 +9,7 @@ class QuestionTitle extends Component{
     render(){
         return(
             <div>
-                <h2>
+                <h2 >
                     What Does the Fox Say?
                 </h2>
             </div>

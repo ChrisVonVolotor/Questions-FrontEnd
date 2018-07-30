@@ -7,7 +7,7 @@ class Lesson extends Component{
 
     render(){
         return(
-            <div>
+            <div className="container">
                 <Parchment/>
             </div>
         )

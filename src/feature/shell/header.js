@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 class Header extends Component{
 
     componentDidMount() {
@@ -8,9 +7,11 @@ class Header extends Component{
     render(){
         return(
             <div>
-               <h1>
-                   EZLearn
-               </h1>
+                <div className="leaf">
+                    <h1 className="header">
+                       EZLearn
+                   </h1>
+                </div>
             </div>
         )
     }

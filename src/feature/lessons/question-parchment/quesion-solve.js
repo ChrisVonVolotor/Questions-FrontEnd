@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../lesson.css';
-
 class QuestionSolver extends Component {
 
     state = {
@@ -37,6 +36,8 @@ class QuestionSolver extends Component {
     }
 
     render() {
+
+
         var tasks = {
             Answers: [],
             Solution: []
@@ -48,7 +49,7 @@ class QuestionSolver extends Component {
                      onDragStart = {(e) => this.onDragStart(e, t.name)}
                      draggable
                      className="drag"
-                     style = {{backgroundColor: t.bgcolor}}
+                    // style = {{backgroundColor: t.bgcolor}}
                 >
                     {t.name}
                 </span>

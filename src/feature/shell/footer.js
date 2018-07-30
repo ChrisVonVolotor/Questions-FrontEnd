@@ -7,10 +7,16 @@ class Footer extends Component{
 
     render(){
         return(
-            <div>
-                <p className="float-right">
-                    EZLearn&copy;2018
-                </p>
+            <div className="">
+                <div className="col-3">
+                </div>
+                <div className="col-6 footerText">
+                    <pre>
+                        EZLearn &copy;2018
+                    </pre>
+                </div>
+                <div className="col-3">
+                </div>
             </div>
         )
     }
