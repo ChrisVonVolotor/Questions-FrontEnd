@@ -13,17 +13,23 @@ class App extends Component {
  render() {
 
     return (
-      <div className="App col-10">
-          <Music/>
-          <div className="col-md-8">
+      <div className="">
+          <div className="topbar">
+            <Music/>
+          </div>
+          <div className="">
               <img className="bee" src={bee} alt="Logo" />
           <Header/>
           </div>
-          <div className="col-md-8">
+          <div className="container">
           <Main/>
           </div>
-          <div className="footer col-md-8">
-          <Footer/>
+
+          <div className="shrub footer">
+
+              <div className="footerText">
+                <Footer/>
+              </div>
           </div>
       </div>
     );

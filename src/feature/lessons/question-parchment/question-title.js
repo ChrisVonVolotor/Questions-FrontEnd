@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../lesson.css';
 
 class QuestionTitle extends Component{
 
