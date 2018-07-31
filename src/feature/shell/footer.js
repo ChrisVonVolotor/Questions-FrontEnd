@@ -8,14 +8,14 @@ class Footer extends Component{
     render(){
         return(
             <div className="">
-                <div className="col-3">
+                <div className="">
                 </div>
-                <div className="col-6 footerText">
-                    <pre>
+                <div className="">
+                    <pre className="float-right">
                         EZLearn &copy;2018
                     </pre>
                 </div>
-                <div className="col-3">
+                <div className="">
                 </div>
             </div>
         )

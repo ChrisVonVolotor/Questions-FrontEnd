@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../lesson.css';
 import QuestionSolver from './quesion-solve';
 import QuestionTitle from "./question-title";
 import QuestionDescription from "./question-description";

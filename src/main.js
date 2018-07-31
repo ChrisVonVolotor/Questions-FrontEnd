@@ -1,16 +1,27 @@
 import React, {Component} from 'react';
 import ReactDOM from "react-dom";
-import Lesson from "./feature/lessons/lesson";
+import Difficulty from "./feature/menu/lesson-select/difficultly";
+import About from "./feature/menu/about/about";
 
 
 class Main extends Component{
-    loadLesson(){
-        ReactDOM.render(<Lesson/>, document.getElementById("quiz"));
+
+
+    loadDifficulty(){
+        ReactDOM.render(<Difficulty/>, document.getElementById("quiz"));
+    }
+
+    loadAbout(){
+        ReactDOM.render(<About/>, document.getElementById("quiz"));
     }
 
     render(){
-        return (<div id="quiz">
-            <button onClick={this.loadLesson}>Game</button>
+        return (<div className="center" id="quiz">
+
+            <button onClick={this.loadDifficulty} className="">Start Lesson</button>
+            <br/><br/>
+            <button onClick={this.loadAbout} className="">About Us</button>
+
         </div>)
     }
 }
